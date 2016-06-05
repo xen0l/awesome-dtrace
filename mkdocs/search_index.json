@@ -1,0 +1,99 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Awesome DTrace \n\n\nA curated list of awesome DTrace books, articles, videos, tools and resources.\n\n\n\n\nLayout inspired by \nawesome-python\n.\n\n\n\n\nAwesome DTrace\n\n\nBooks\n\n\nGeneral\n\n\n\n\n\n\nArticles\n\n\nVideos\n\n\ndtrace.conf\n\n\n\n\n\n\nSoftware\n\n\nProgramming Languages\n\n\nDatabases\n\n\n\n\n\n\nTools\n\n\nResources\n\n\n\n\n\n\nContributing\n\n\n\n\n\n\nBooks\n\n\nRecommended reading for learning DTrace\n\n\nGeneral\n\n\n\n\nDynamic Tracing Guide\n\n\nDTrace: Dynamic Tracing in Oracle Solaris, Mac OS X, and FreeBSD\n\n\ndtrace(1m) man page\n\n\nDTrace cheatsheet\n\n\n\n\nArticles\n\n\nVideos\n\n\nInteresting videos about DTrace\n\n\n\n\nDTrace review\n - Bryan Cantrill explains how to significantly improve debugging both for development and live systems with DTrace\n\n\n\n\ndtrace.conf\n\n\n\n\n\n\ndtrace.conf 2008\n\n\n\n\nNFSv3 and iSCSI providers\n\n\nDTrace for hardware\n\n\nZones \n DTrace\n\n\nDTracing a Solaris build\n\n\nWar Stories\n\n\nSun Benchmarks\n\n\nErlang\n\n\nErlang (continued)\n\n\nInstrumenting Adobe AIR\n\n\nHotSpot Runtime \n Java\n\n\nPostgreSQL: Looking Under the Hood with Solaris\n\n\nPostgreSQL Provider\n\n\nDistributed DTrace\n\n\nApple Port of DTrace\n\n\n\n\n\n\n\n\ndtrace.conf 2012\n\n\n\n\nDTrace State of the Union\n\n\nUser-Level CTF\n\n\nDynamic Translators\n\n\nClang Parser for DTrace\n\n\nVisualizations\n\n\nVisualizations, Enabling Toolchain for Seamless USDT\n\n\nMore Visualizations\n\n\nDTrace in node.js\n\n\nDTrace and Erlang\n\n\nDTrace on Linux\n\n\nZFS Provider\n\n\nDTrace on FreeBSD\n\n\nBarriers to DTrace Adoption \n\n\n\n\n\n\n\n\ndtrace.conf 2016\n\n\n\n\n\n\nSoftware\n\n\nProgramming languages\n\n\nPython\n\n\n\n\nPython\n - DTrace patch for Python 2.7.x and 3.x\n\n\npython-usdt\n - libusdt bindings for Python\n\n\n\n\nnode.js\n\n\n\n\nnode-dtrace-provider\n - Native DTrace probes for node.js apps\n\n\n\n\nLua\n\n\n\n\nlua-usdt\n - libusdt bindings for Lua\n\n\n\n\nPerl\n\n\n\n\nperl-Devel-DTrace-Provider\n - Perl wrapper for libusdt\n\n\n\n\nRuby\n\n\n\n\nRuby\n - Ruby DTrace probes\n\n\nruby-usdt\n - Native DTrace probes for ruby apps\n\n\n\n\nErlang\n\n\n\n\nErlang\n - DTrace and Erlang/OTP\n\n\n\n\nDatabases\n\n\n\n\nPostgreSQL\n - PostgreSQL DTrace probes\n\n\n\n\nTools\n\n\n\n\nDTraceToolkit\n - a collection of useful documented DTrace scripts\n\n\ndtrace-cloud-tools\n - DTrace tools written for the SmartOS/SmartDataCenter cloud (illumos-based)\n\n\npgsql tools\n - report top-level PostgreSQL stats\n\n\nstorage tools\n - report NFS, CIFS and iSCSI stats\n\n\n\n\nResources\n\n\n\n\nMailing list\n - DTrace community mailing list\n\n\n\n\nContributing\n\n\nContributions are more than welcome! Please see \ncontribution guidelines\n first.", 
+            "title": "DTrace"
+        }, 
+        {
+            "location": "/#awesome-dtrace", 
+            "text": "A curated list of awesome DTrace books, articles, videos, tools and resources.   Layout inspired by  awesome-python .   Awesome DTrace  Books  General    Articles  Videos  dtrace.conf    Software  Programming Languages  Databases    Tools  Resources    Contributing", 
+            "title": "Awesome DTrace"
+        }, 
+        {
+            "location": "/#books", 
+            "text": "Recommended reading for learning DTrace", 
+            "title": "Books"
+        }, 
+        {
+            "location": "/#general", 
+            "text": "Dynamic Tracing Guide  DTrace: Dynamic Tracing in Oracle Solaris, Mac OS X, and FreeBSD  dtrace(1m) man page  DTrace cheatsheet", 
+            "title": "General"
+        }, 
+        {
+            "location": "/#articles", 
+            "text": "", 
+            "title": "Articles"
+        }, 
+        {
+            "location": "/#videos", 
+            "text": "Interesting videos about DTrace   DTrace review  - Bryan Cantrill explains how to significantly improve debugging both for development and live systems with DTrace", 
+            "title": "Videos"
+        }, 
+        {
+            "location": "/#dtraceconf", 
+            "text": "dtrace.conf 2008   NFSv3 and iSCSI providers  DTrace for hardware  Zones   DTrace  DTracing a Solaris build  War Stories  Sun Benchmarks  Erlang  Erlang (continued)  Instrumenting Adobe AIR  HotSpot Runtime   Java  PostgreSQL: Looking Under the Hood with Solaris  PostgreSQL Provider  Distributed DTrace  Apple Port of DTrace     dtrace.conf 2012   DTrace State of the Union  User-Level CTF  Dynamic Translators  Clang Parser for DTrace  Visualizations  Visualizations, Enabling Toolchain for Seamless USDT  More Visualizations  DTrace in node.js  DTrace and Erlang  DTrace on Linux  ZFS Provider  DTrace on FreeBSD  Barriers to DTrace Adoption      dtrace.conf 2016", 
+            "title": "dtrace.conf"
+        }, 
+        {
+            "location": "/#software", 
+            "text": "", 
+            "title": "Software"
+        }, 
+        {
+            "location": "/#programming-languages", 
+            "text": "", 
+            "title": "Programming languages"
+        }, 
+        {
+            "location": "/#python", 
+            "text": "Python  - DTrace patch for Python 2.7.x and 3.x  python-usdt  - libusdt bindings for Python", 
+            "title": "Python"
+        }, 
+        {
+            "location": "/#nodejs", 
+            "text": "node-dtrace-provider  - Native DTrace probes for node.js apps", 
+            "title": "node.js"
+        }, 
+        {
+            "location": "/#lua", 
+            "text": "lua-usdt  - libusdt bindings for Lua", 
+            "title": "Lua"
+        }, 
+        {
+            "location": "/#perl", 
+            "text": "perl-Devel-DTrace-Provider  - Perl wrapper for libusdt", 
+            "title": "Perl"
+        }, 
+        {
+            "location": "/#ruby", 
+            "text": "Ruby  - Ruby DTrace probes  ruby-usdt  - Native DTrace probes for ruby apps", 
+            "title": "Ruby"
+        }, 
+        {
+            "location": "/#erlang", 
+            "text": "Erlang  - DTrace and Erlang/OTP", 
+            "title": "Erlang"
+        }, 
+        {
+            "location": "/#databases", 
+            "text": "PostgreSQL  - PostgreSQL DTrace probes", 
+            "title": "Databases"
+        }, 
+        {
+            "location": "/#tools", 
+            "text": "DTraceToolkit  - a collection of useful documented DTrace scripts  dtrace-cloud-tools  - DTrace tools written for the SmartOS/SmartDataCenter cloud (illumos-based)  pgsql tools  - report top-level PostgreSQL stats  storage tools  - report NFS, CIFS and iSCSI stats", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/#resources", 
+            "text": "Mailing list  - DTrace community mailing list", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/#contributing", 
+            "text": "Contributions are more than welcome! Please see  contribution guidelines  first.", 
+            "title": "Contributing"
+        }
+    ]
+}

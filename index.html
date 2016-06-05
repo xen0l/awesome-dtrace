@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A curated list of awesome DTrace books, articles, videos, tools and resources.">
+        <meta name="author" content="Adam Števko">
+        <link rel="canonical" href="http://www.awesome-dtrace.com/">
+        <link rel="shortcut icon" href="./img/favicon.ico">
+
+	<title>Awesome DTrace</title>
+
+        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/highlight.css">
+        <link href="./css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href=".">Awesome DTrace</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li class="active">
+                    <a href=".">DTrace</a>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li class="disabled">
+                    <a rel="next" >
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li class="disabled">
+                    <a rel="prev" >
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/xen0l/awesome-dtrace">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#awesome-dtrace">Awesome DTrace</a></li>
+        
+    
+        <li class="main "><a href="#books">Books</a></li>
+        
+            <li><a href="#general">General</a></li>
+        
+    
+        <li class="main "><a href="#articles">Articles</a></li>
+        
+    
+        <li class="main "><a href="#videos">Videos</a></li>
+        
+            <li><a href="#dtraceconf">dtrace.conf</a></li>
+        
+    
+        <li class="main "><a href="#software">Software</a></li>
+        
+            <li><a href="#programming-languages">Programming languages</a></li>
+        
+            <li><a href="#databases">Databases</a></li>
+        
+    
+        <li class="main "><a href="#tools">Tools</a></li>
+        
+    
+        <li class="main "><a href="#resources">Resources</a></li>
+        
+    
+        <li class="main "><a href="#contributing">Contributing</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h1 id="awesome-dtrace">Awesome DTrace <a href="https://github.com/sindresorhus/awesome"><img alt="Awesome" src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" /></a></h1>
+<p>A curated list of awesome DTrace books, articles, videos, tools and resources.</p>
+<p><img alt="Pony" src="http://dtrace.org/blogs/wp-content/uploads/2011/11/dtracepony-120.png" /></p>
+<p>Layout inspired by <a href="https://github.com/vinta/awesome-python">awesome-python</a>.</p>
+<ul>
+<li><a href="#awesome-python">Awesome DTrace</a><ul>
+<li><a href="#books">Books</a><ul>
+<li><a href="#general">General</a></li>
+</ul>
+</li>
+<li><a href="#articles">Articles</a></li>
+<li><a href="#videos">Videos</a><ul>
+<li><a href="#dtrace.conf">dtrace.conf</a></li>
+</ul>
+</li>
+<li><a href="#software">Software</a><ul>
+<li><a href="#programming-languages">Programming Languages</a></li>
+<li><a href="#databses">Databases</a></li>
+</ul>
+</li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+</li>
+<li><a href="#contributing">Contributing</a></li>
+</ul>
+<hr />
+<h1 id="books">Books</h1>
+<p><em>Recommended reading for learning DTrace</em></p>
+<h2 id="general">General</h2>
+<ul>
+<li><a href="http://dtrace.org/guide/preface.html">Dynamic Tracing Guide</a></li>
+<li><a href="http://www.dtracebook.com/index.php/Main_Page">DTrace: Dynamic Tracing in Oracle Solaris, Mac OS X, and FreeBSD</a></li>
+<li><a href="https://illumos.org/man/1m/dtrace">dtrace(1m) man page</a></li>
+<li><a href="http://www.brendangregg.com/DTrace/DTrace-cheatsheet.pdf">DTrace cheatsheet</a></li>
+</ul>
+<h1 id="articles">Articles</h1>
+<h1 id="videos">Videos</h1>
+<p><em>Interesting videos about DTrace</em></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=TgmA48fILq8">DTrace review</a> - Bryan Cantrill explains how to significantly improve debugging both for development and live systems with DTrace</li>
+</ul>
+<h2 id="dtraceconf">dtrace.conf</h2>
+<ul>
+<li>
+<p><a href="https://youtu.be/RvyP61WeFdM?list=PL8516982CBF9FADCC">dtrace.conf 2008</a></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=sgBCz7bXkSo&amp;index=4&amp;list=PL8516982CBF9FADCC">NFSv3 and iSCSI providers</a></li>
+<li><a href="https://www.youtube.com/watch?v=1Bc2Dz8aS6s&amp;list=PL8516982CBF9FADCC&amp;index=5">DTrace for hardware</a></li>
+<li><a href="https://www.youtube.com/watch?v=D8_onK0pSvA&amp;index=8&amp;list=PL8516982CBF9FADCC">Zones &amp; DTrace</a></li>
+<li><a href="https://www.youtube.com/watch?v=e55iXXYj-74&amp;index=10&amp;list=PL8516982CBF9FADCC">DTracing a Solaris build</a></li>
+<li><a href="https://www.youtube.com/watch?v=yR39YqVXQOM&amp;index=11&amp;list=PL8516982CBF9FADCC">War Stories</a></li>
+<li><a href="https://www.youtube.com/watch?v=uK0DjEXo99w&amp;list=PL8516982CBF9FADCC&amp;index=12">Sun Benchmarks</a></li>
+<li><a href="https://www.youtube.com/watch?v=PXIGE5GFAkE&amp;index=13&amp;list=PL8516982CBF9FADCC">Erlang</a></li>
+<li><a href="https://www.youtube.com/watch?v=YTNiCv9Za2Y&amp;index=14&amp;list=PL8516982CBF9FADCC">Erlang (continued)</a></li>
+<li><a href="https://www.youtube.com/watch?v=4astU1_X5xM&amp;index=15&amp;list=PL8516982CBF9FADCC">Instrumenting Adobe AIR</a></li>
+<li><a href="https://www.youtube.com/watch?v=8kdJDHqiByI&amp;list=PL8516982CBF9FADCC&amp;index=16">HotSpot Runtime &amp; Java</a></li>
+<li><a href="https://www.youtube.com/watch?v=p5NKcxDny_4&amp;list=PL8516982CBF9FADCC&amp;index=17">PostgreSQL: Looking Under the Hood with Solaris</a></li>
+<li><a href="https://www.youtube.com/watch?v=SJykRURWgeU&amp;list=PL8516982CBF9FADCC&amp;index=18">PostgreSQL Provider</a></li>
+<li><a href="https://www.youtube.com/watch?v=oYK1kgFwxk4&amp;index=19&amp;list=PL8516982CBF9FADCC">Distributed DTrace</a></li>
+<li><a href="https://www.youtube.com/watch?v=OKSuox4eFrk&amp;list=PL8516982CBF9FADCC&amp;index=21">Apple Port of DTrace</a></li>
+</ul>
+</li>
+<li>
+<p><a href="https://www.youtube.com/watch?v=l_7v7Fn7uMQ&amp;list=PL973D48F273EB0360">dtrace.conf 2012</a></p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=l_7v7Fn7uMQ&amp;list=PL973D48F273EB0360">DTrace State of the Union</a></li>
+<li><a href="https://www.youtube.com/watch?v=0QF04ivO_WE&amp;list=PL973D48F273EB0360&amp;index=3">User-Level CTF</a></li>
+<li><a href="https://www.youtube.com/watch?v=CqLcj0lVnp4&amp;index=4&amp;list=PL973D48F273EB0360">Dynamic Translators</a></li>
+<li><a href="https://www.youtube.com/watch?v=6NqV_Uj8Ba4&amp;index=7&amp;list=PL973D48F273EB0360">Clang Parser for DTrace</a></li>
+<li><a href="https://www.youtube.com/watch?v=XD5hdaWnQM4&amp;index=8&amp;list=PL973D48F273EB0360">Visualizations</a></li>
+<li><a href="https://www.youtube.com/watch?v=3Sqa8mmtnMM&amp;index=9&amp;list=PL973D48F273EB0360">Visualizations, Enabling Toolchain for Seamless USDT</a></li>
+<li><a href="https://www.youtube.com/watch?v=-B6u6wY3Iro&amp;index=10&amp;list=PL973D48F273EB0360">More Visualizations</a></li>
+<li><a href="https://www.youtube.com/watch?v=0ZMvSh7lUdM&amp;list=PL973D48F273EB0360&amp;index=11">DTrace in node.js</a></li>
+<li><a href="https://www.youtube.com/watch?v=4Si-7nAic2c&amp;list=PL973D48F273EB0360&amp;index=12">DTrace and Erlang</a></li>
+<li><a href="https://www.youtube.com/watch?v=NElog3MvUC8&amp;list=PL973D48F273EB0360&amp;index=13">DTrace on Linux</a></li>
+<li><a href="https://www.youtube.com/watch?v=m_V7yrrn49Y&amp;index=14&amp;list=PL973D48F273EB0360">ZFS Provider</a></li>
+<li><a href="https://www.youtube.com/watch?v=s5PpSiPfSNI&amp;index=15&amp;list=PL973D48F273EB0360">DTrace on FreeBSD</a></li>
+<li><a href="https://www.youtube.com/watch?v=P95LHZ-WOWw&amp;index=16&amp;list=PL973D48F273EB0360">Barriers to DTrace Adoption </a></li>
+</ul>
+</li>
+<li>
+<p><a href="./TBA">dtrace.conf 2016</a></p>
+</li>
+</ul>
+<h1 id="software">Software</h1>
+<h2 id="programming-languages">Programming languages</h2>
+<h3 id="python">Python</h3>
+<ul>
+<li><a href="https://www.jcea.es/artic/python_dtrace.htm">Python</a> - DTrace patch for Python 2.7.x and 3.x</li>
+<li><a href="https://github.com/nshalman/python-usdt">python-usdt</a> - libusdt bindings for Python</li>
+</ul>
+<h3 id="nodejs">node.js</h3>
+<ul>
+<li><a href="https://github.com/chrisa/node-dtrace-provider">node-dtrace-provider</a> - Native DTrace probes for node.js apps</li>
+</ul>
+<h3 id="lua">Lua</h3>
+<ul>
+<li><a href="https://github.com/chrisa/lua-usdt">lua-usdt</a> - libusdt bindings for Lua</li>
+</ul>
+<h3 id="perl">Perl</h3>
+<ul>
+<li><a href="https://github.com/chrisa/perl-Devel-DTrace-Provider">perl-Devel-DTrace-Provider</a> - Perl wrapper for libusdt</li>
+</ul>
+<h3 id="ruby">Ruby</h3>
+<ul>
+<li><a href="http://ruby-doc.org/core-2.3.1/doc/dtrace_probes_rdoc.html">Ruby</a> - Ruby DTrace probes</li>
+<li><a href="https://github.com/kevinykchan/ruby-usdt">ruby-usdt</a> - Native DTrace probes for ruby apps</li>
+</ul>
+<h3 id="erlang">Erlang</h3>
+<ul>
+<li><a href="http://erlang.org/doc/apps/runtime_tools/DTRACE.html">Erlang</a> - DTrace and Erlang/OTP</li>
+</ul>
+<h2 id="databases">Databases</h2>
+<ul>
+<li><a href="https://www.postgresql.org/docs/current/static/dynamic-trace.html">PostgreSQL</a> - PostgreSQL DTrace probes</li>
+</ul>
+<h1 id="tools">Tools</h1>
+<ul>
+<li><a href="http://www.brendangregg.com/dtracetoolkit.html">DTraceToolkit</a> - a collection of useful documented DTrace scripts</li>
+<li><a href="https://github.com/brendangregg/dtrace-cloud-tools">dtrace-cloud-tools</a> - DTrace tools written for the SmartOS/SmartDataCenter cloud (illumos-based)</li>
+<li><a href="https://github.com/joyent/pgsqlstat">pgsql tools</a> - report top-level PostgreSQL stats</li>
+<li><a href="https://github.com/richardelling/tools">storage tools</a> - report NFS, CIFS and iSCSI stats</li>
+</ul>
+<h1 id="resources">Resources</h1>
+<ul>
+<li><a href="http://dtrace.org/blogs/mailing-list/">Mailing list</a> - DTrace community mailing list</li>
+</ul>
+<h1 id="contributing">Contributing</h1>
+<p>Contributions are more than welcome! Please see <a href="https://github.com/xen0l/awesome-dtrace/blob/master/CONTRIBUTING.md">contribution guidelines</a> first.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="./js/jquery-1.10.2.min.js"></script>
+        <script src="./js/bootstrap-3.0.3.min.js"></script>
+        <script src="./js/highlight.pack.js"></script>
+        <script>var base_url = '.';</script>
+        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
+        <script src="./js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
