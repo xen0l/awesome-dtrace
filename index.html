@@ -113,6 +113,10 @@
     
         <li class="main "><a href="#articles">Articles</a></li>
         
+            <li><a href="#pid-provider">PID Provider</a></li>
+        
+            <li><a href="#usdt-provider">USDT provider</a></li>
+        
     
         <li class="main "><a href="#videos">Videos</a></li>
         
@@ -124,6 +128,8 @@
             <li><a href="#programming-languages">Programming languages</a></li>
         
             <li><a href="#databases">Databases</a></li>
+        
+            <li><a href="#webservers">Webservers</a></li>
         
     
         <li class="main "><a href="#tools">Tools</a></li>
@@ -149,7 +155,11 @@
 <li><a href="#general">General</a></li>
 </ul>
 </li>
-<li><a href="#articles">Articles</a></li>
+<li><a href="#articles">Articles</a><ul>
+<li><a href="#pid-provider">PID provider</a></li>
+<li><a href="#usdt-provider">USDT provider</a></li>
+</ul>
+</li>
 <li><a href="#videos">Videos</a><ul>
 <li><a href="#dtrace.conf">dtrace.conf</a></li>
 </ul>
@@ -157,6 +167,7 @@
 <li><a href="#software">Software</a><ul>
 <li><a href="#programming-languages">Programming Languages</a></li>
 <li><a href="#databses">Databases</a></li>
+<li><a href="#webservers">Webservers</a></li>
 </ul>
 </li>
 <li><a href="#tools">Tools</a></li>
@@ -176,8 +187,24 @@
 <li><a href="http://www.brendangregg.com/DTrace/DTrace-cheatsheet.pdf">DTrace cheatsheet</a> - DTrace cheatsheet by Brendan Gregg.</li>
 </ul>
 <h1 id="articles">Articles</h1>
+<p><em>Interesting articles about DTrace and real-world use cases.</em></p>
+<h2 id="pid-provider">PID Provider</h2>
+<ul>
+<li><a href="http://dtrace.org/blogs/brendan/2011/02/09/dtrace-pid-provider/">pid provider: entry probe</a> - DTrace pid Provider.</li>
+<li><a href="http://dtrace.org/blogs/brendan/2011/02/11/dtrace-pid-provider-arguments/">pid provider: entry arguments</a> - DTrace pid Provider Arguments.</li>
+<li><a href="http://dtrace.org/blogs/brendan/2011/02/14/dtrace-pid-provider-return/">pid provider: return</a> - DTrace pid Provider return.</li>
+<li><a href="http://dtrace.org/blogs/brendan/2011/02/16/dtrace-pid-provider-instructions/">pid provider: instructions</a> - DTrace pid Provider Instructions.</li>
+<li><a href="http://dtrace.org/blogs/brendan/2011/02/18/dtrace-pid-provider-overhead/">pid provider: overhead</a> - DTrace pid Provider Overhead.</li>
+<li><a href="http://dtrace.org/blogs/ahl/2005/03/01/pid-provider-exposed/">pid provider exposed</a> - pid providers internals by Adam Leventhal.</li>
+<li><a href="http://dtrace.org/blogs/bmc/2011/03/09/when-magic-collides/">When magic collides</a> - pid provider bug deep dive by Bryan Cantrill.</li>
+</ul>
+<h2 id="usdt-provider">USDT provider</h2>
+<ul>
+<li><a href="http://dtrace.org/blogs/dap/2013/11/20/understanding-dtrace-ustack-helpers/">Understanding DTrace ustack helpers</a> - DTrace ustack helpers.</li>
+<li><a href="http://dtrace.org/blogs/dap/2011/12/13/usdt-providers-redux/">USDT Providers Redux</a> - reference for building USDT providers in custom applications.</li>
+</ul>
 <h1 id="videos">Videos</h1>
-<p><em>Interesting videos about DTrace</em></p>
+<p><em>Interesting videos about DTrace.</em></p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=TgmA48fILq8">DTrace review</a> - Bryan Cantrill explains how to significantly improve debugging both for development and live systems with DTrace.</li>
 </ul>
@@ -225,6 +252,7 @@
 </li>
 </ul>
 <h1 id="software">Software</h1>
+<p><em>List of software with DTrace support.</em></p>
 <h2 id="programming-languages">Programming languages</h2>
 <h3 id="python">Python</h3>
 <ul>
@@ -258,7 +286,12 @@
 </ul>
 <h2 id="databases">Databases</h2>
 <ul>
+<li><a href="https://dev.mysql.com/doc/refman/5.7/en/dba-dtrace-mysqld-ref.html">MySQL</a> - MySQL DTrace probes.</li>
 <li><a href="https://www.postgresql.org/docs/current/static/dynamic-trace.html">PostgreSQL</a> - PostgreSQL DTrace probes.</li>
+</ul>
+<h2 id="webservers">Webservers</h2>
+<ul>
+<li><a href="https://github.com/davepacheco/mod_usdt">mod_usdt</a> - "httpd" DTrace provider.</li>
 </ul>
 <h1 id="tools">Tools</h1>
 <ul>
@@ -266,9 +299,11 @@
 <li><a href="https://github.com/brendangregg/dtrace-cloud-tools">dtrace-cloud-tools</a> - DTrace tools written for the SmartOS/SmartDataCenter cloud (illumos-based).</li>
 <li><a href="https://github.com/joyent/pgsqlstat">pgsql tools</a> - report top-level PostgreSQL stats.</li>
 <li><a href="https://github.com/richardelling/tools">storage tools</a> - report NFS, CIFS and iSCSI stats.</li>
+<li><a href="https://github.com/davepacheco/portsnoop">portsnoop</a> - trace event port activity.</li>
 </ul>
 <h1 id="resources">Resources</h1>
 <ul>
+<li><a href="http://dtrace.org">Community site</a> - DTrace community site.</li>
 <li><a href="http://dtrace.org/blogs/mailing-list/">Mailing list</a> - DTrace community mailing list.</li>
 </ul>
 <h1 id="contributing">Contributing</h1>
