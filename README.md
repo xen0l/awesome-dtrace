@@ -17,13 +17,13 @@ Layout inspired by [awesome-python](https://github.com/vinta/awesome-python).
     - [dtrace.conf](#dtraceconf)
 - [Software](#software)
     - [Programming languages](#programming-languages)
-        - [Python](#python)
-        - [node.js](#nodejs)
-        - [Lua](#lua)
-        - [Perl](#perl)
-        - [Ruby](#ruby)
         - [Erlang](#erlang)
+        - [Lua](#lua)
+        - [node.js](#nodejs)
+        - [Perl](#perl)
         - [PHP](#php)
+        - [Python](#python)
+        - [Ruby](#ruby)
     - [Databases](#databases)
     - [Webservers](#webservers)
 - [Tools](#tools)
@@ -111,29 +111,28 @@ Layout inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ## Programming languages
 
-### Python
-- [Python](https://www.jcea.es/artic/python_dtrace.htm) - DTrace patch for Python 2.7.x and 3.x.
-- [python-usdt](https://github.com/nshalman/python-usdt) - libusdt bindings for Python.
-
-### node.js
-- [node-dtrace-provider](https://github.com/chrisa/node-dtrace-provider) - Native DTrace probes for node.js apps.
-
+### Erlang
+- [Erlang](http://erlang.org/doc/apps/runtime_tools/DTRACE.html) - DTrace and Erlang/OTP.
 
 ### Lua
 - [lua-usdt](https://github.com/chrisa/lua-usdt) - libusdt bindings for Lua.
 
+### node.js
+- [node-dtrace-provider](https://github.com/chrisa/node-dtrace-provider) - Native DTrace probes for node.js apps.
+
 ### Perl
 - [perl-Devel-DTrace-Provider](https://github.com/chrisa/perl-Devel-DTrace-Provider) - Perl wrapper for libusdt.
+
+### PHP
+- [PHP](https://secure.php.net/manual/en/features.dtrace.dtrace.php) - Using PHP and DTrace.
+
+### Python
+- [Python](https://www.jcea.es/artic/python_dtrace.htm) - DTrace patch for Python 2.7.x and 3.x.
+- [python-usdt](https://github.com/nshalman/python-usdt) - libusdt bindings for Python.
 
 ### Ruby
 - [Ruby](http://ruby-doc.org/core-2.3.1/doc/dtrace_probes_rdoc.html) - Ruby DTrace probes.
 - [ruby-usdt](https://github.com/kevinykchan/ruby-usdt) - Native DTrace probes for ruby apps.
-
-### Erlang
-- [Erlang](http://erlang.org/doc/apps/runtime_tools/DTRACE.html) - DTrace and Erlang/OTP.
-
-### PHP
-- [PHP](https://secure.php.net/manual/en/features.dtrace.dtrace.php) - Using PHP and DTrace.
 
 ## Databases
 
@@ -149,8 +148,8 @@ Layout inspired by [awesome-python](https://github.com/vinta/awesome-python).
 - [DTraceToolkit](http://www.brendangregg.com/dtracetoolkit.html) - a collection of useful documented DTrace scripts.
 - [dtrace-cloud-tools](https://github.com/brendangregg/dtrace-cloud-tools) - DTrace tools written for the SmartOS/SmartDataCenter cloud (illumos-based).
 - [pgsql tools](https://github.com/joyent/pgsqlstat) - report top-level PostgreSQL stats.
-- [storage tools](https://github.com/richardelling/tools) - report NFS, CIFS and iSCSI stats.
 - [portsnoop](https://github.com/davepacheco/portsnoop) - trace event port activity.
+- [storage tools](https://github.com/richardelling/tools) - report NFS, CIFS and iSCSI stats.
 
 # Community
 
