@@ -6,7 +6,29 @@ A curated list of awesome DTrace books, articles, videos, tools and resources.
 
 Layout inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
-[TOC]
+- [Awesome DTrace](#awesome-dtrace)
+- [Learn DTrace](#learn-dtrace)
+    - [Books](#books)
+    - [Other](#other)
+- [Articles](#articles)
+    - [PID Provider](#pid-provider)
+    - [USDT Provider](#usdt-provider)
+- [Videos](#videos)
+    - [dtrace.conf](#dtraceconf)
+- [Software](#software)
+    - [Programming languages](#programming-languages)
+        - [Python](#python)
+        - [node.js](#nodejs)
+        - [Lua](#lua)
+        - [Perl](#perl)
+        - [Ruby](#ruby)
+        - [Erlang](#erlang)
+        - [PHP](#php)
+    - [Databases](#databases)
+    - [Webservers](#webservers)
+- [Tools](#tools)
+- [Community](#community)
+- [Contributing](#contributing)
 
 - - -
 
