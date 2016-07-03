@@ -105,42 +105,19 @@
     
         <li class="main active"><a href="#awesome-dtrace">Awesome DTrace</a></li>
         
-    
-        <li class="main "><a href="#learn-dtrace">Learn DTrace</a></li>
+            <li><a href="#learn-dtrace">Learn DTrace</a></li>
         
-            <li><a href="#books">Books</a></li>
+            <li><a href="#articles">Articles</a></li>
         
-            <li><a href="#other">Other</a></li>
+            <li><a href="#videos">Videos</a></li>
         
-    
-        <li class="main "><a href="#articles">Articles</a></li>
+            <li><a href="#software">Software</a></li>
         
-            <li><a href="#pid-provider">PID Provider</a></li>
+            <li><a href="#tools">Tools</a></li>
         
-            <li><a href="#usdt-provider">USDT provider</a></li>
+            <li><a href="#community">Community</a></li>
         
-    
-        <li class="main "><a href="#videos">Videos</a></li>
-        
-            <li><a href="#dtraceconf">dtrace.conf</a></li>
-        
-    
-        <li class="main "><a href="#software">Software</a></li>
-        
-            <li><a href="#programming-languages">Programming languages</a></li>
-        
-            <li><a href="#databases">Databases</a></li>
-        
-            <li><a href="#webservers">Webservers</a></li>
-        
-    
-        <li class="main "><a href="#tools">Tools</a></li>
-        
-    
-        <li class="main "><a href="#community">Community</a></li>
-        
-    
-        <li class="main "><a href="#contributing">Contributing</a></li>
+            <li><a href="#contributing">Contributing</a></li>
         
     
     </ul>
@@ -168,7 +145,7 @@
 </ul>
 </li>
 <li><a href="#software">Software</a><ul>
-<li><a href="#programming-languages">Programming languages</a><ul>
+<li><a href="#programming-languages">Programming languages</a></li>
 <li><a href="#erlang">Erlang</a></li>
 <li><a href="#lua">Lua</a></li>
 <li><a href="#nodejs">node.js</a></li>
@@ -176,8 +153,6 @@
 <li><a href="#php">PHP</a></li>
 <li><a href="#python">Python</a></li>
 <li><a href="#ruby">Ruby</a></li>
-</ul>
-</li>
 <li><a href="#databases">Databases</a></li>
 <li><a href="#webservers">Webservers</a></li>
 </ul>
@@ -187,14 +162,15 @@
 <li><a href="#contributing">Contributing</a></li>
 </ul>
 <hr />
-<h1 id="learn-dtrace">Learn DTrace</h1>
-<p><em>Recommended reading for learning DTrace</em></p>
-<h2 id="books">Books</h2>
+<h2 id="learn-dtrace">Learn DTrace</h2>
+<p>Recommended reading for learning DTrace.</p>
+<h3 id="books">Books</h3>
 <ul>
 <li><a href="http://dtrace.org/guide/preface.html">Dynamic Tracing Guide</a> - illumos.org DTrace guide.</li>
 <li><a href="http://www.dtracebook.com/index.php/Main_Page">DTrace: Dynamic Tracing in Oracle Solaris, Mac OS X, and FreeBSD</a> - official DTrace book.</li>
+<li><a href="http://myaut.github.io/dtrace-stap-book/">Dynamic Tracing with DTrace &amp; SystemTap</a> - a book introduces both DTrace and SystemTap.</li>
 </ul>
-<h2 id="other">Other</h2>
+<h3 id="other">Other</h3>
 <ul>
 <li><a href="https://illumos.org/man/1m/dtrace">dtrace(1m) man page</a> - DTrace manual page.</li>
 <li><a href="http://www.brendangregg.com/DTrace/DTrace-cheatsheet.pdf">DTrace cheatsheet</a> - DTrace cheatsheet by Brendan Gregg.</li>
@@ -202,9 +178,9 @@
 <li><a href="https://wiki.freebsd.org/DTrace/One-Liners">DTrace one-liners (FreeBSD)</a> - DTrace one liners from FreeBSD.</li>
 <li><a href="http://www.tablespace.net/quicksheet/dtrace-quickstart.html">DTrace QuickStart</a> - DTrace quick starting guide.</li>
 </ul>
-<h1 id="articles">Articles</h1>
-<p><em>Interesting articles about DTrace and real-world use cases.</em></p>
-<h2 id="pid-provider">PID Provider</h2>
+<h2 id="articles">Articles</h2>
+<p>Interesting articles about DTrace and real-world use cases.</p>
+<h3 id="pid-provider">PID Provider</h3>
 <ul>
 <li><a href="http://dtrace.org/blogs/brendan/2011/02/09/dtrace-pid-provider/">pid provider: entry probe</a> - DTrace pid Provider.</li>
 <li><a href="http://dtrace.org/blogs/brendan/2011/02/11/dtrace-pid-provider-arguments/">pid provider: entry arguments</a> - DTrace pid Provider Arguments.</li>
@@ -214,21 +190,19 @@
 <li><a href="http://dtrace.org/blogs/ahl/2005/03/01/pid-provider-exposed/">pid provider exposed</a> - pid providers internals by Adam Leventhal.</li>
 <li><a href="http://dtrace.org/blogs/bmc/2011/03/09/when-magic-collides/">When magic collides</a> - pid provider bug deep dive by Bryan Cantrill.</li>
 </ul>
-<h2 id="usdt-provider">USDT provider</h2>
+<h3 id="usdt-provider">USDT provider</h3>
 <ul>
 <li><a href="http://dtrace.org/blogs/dap/2013/11/20/understanding-dtrace-ustack-helpers/">Understanding DTrace ustack helpers</a> - DTrace ustack helpers.</li>
 <li><a href="http://dtrace.org/blogs/dap/2011/12/13/usdt-providers-redux/">USDT Providers Redux</a> - reference for building USDT providers in custom applications.</li>
 </ul>
-<h1 id="videos">Videos</h1>
-<p><em>Interesting videos about DTrace.</em></p>
+<h2 id="videos">Videos</h2>
+<p>Interesting videos about DTrace.</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=TgmA48fILq8">DTrace review</a> - Bryan Cantrill explains how to significantly improve debugging both for development and live systems with DTrace.</li>
 </ul>
-<h2 id="dtraceconf">dtrace.conf</h2>
+<h3 id="dtraceconf">dtrace.conf</h3>
 <ul>
-<li>
-<p><a href="https://youtu.be/RvyP61WeFdM?list=PL8516982CBF9FADCC">dtrace.conf 2008</a></p>
-<ul>
+<li><a href="https://youtu.be/RvyP61WeFdM?list=PL8516982CBF9FADCC">dtrace.conf 2008</a></li>
 <li><a href="https://www.youtube.com/watch?v=sgBCz7bXkSo&amp;index=4&amp;list=PL8516982CBF9FADCC">NFSv3 and iSCSI providers</a></li>
 <li><a href="https://www.youtube.com/watch?v=1Bc2Dz8aS6s&amp;list=PL8516982CBF9FADCC&amp;index=5">DTrace for hardware</a></li>
 <li><a href="https://www.youtube.com/watch?v=D8_onK0pSvA&amp;index=8&amp;list=PL8516982CBF9FADCC">Zones &amp; DTrace</a></li>
@@ -242,12 +216,12 @@
 <li><a href="https://www.youtube.com/watch?v=p5NKcxDny_4&amp;list=PL8516982CBF9FADCC&amp;index=17">PostgreSQL: Looking Under the Hood with Solaris</a></li>
 <li><a href="https://www.youtube.com/watch?v=SJykRURWgeU&amp;list=PL8516982CBF9FADCC&amp;index=18">PostgreSQL Provider</a></li>
 <li><a href="https://www.youtube.com/watch?v=oYK1kgFwxk4&amp;index=19&amp;list=PL8516982CBF9FADCC">Distributed DTrace</a></li>
-<li><a href="https://www.youtube.com/watch?v=OKSuox4eFrk&amp;list=PL8516982CBF9FADCC&amp;index=21">Apple Port of DTrace</a></li>
-</ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=OKSuox4eFrk&amp;list=PL8516982CBF9FADCC&amp;index=21">Apple Port of DTrace</a></p>
 </li>
 <li>
 <p><a href="https://www.youtube.com/watch?v=l_7v7Fn7uMQ&amp;list=PL973D48F273EB0360">dtrace.conf 2012</a></p>
-<ul>
+</li>
 <li><a href="https://www.youtube.com/watch?v=l_7v7Fn7uMQ&amp;list=PL973D48F273EB0360">DTrace State of the Union</a></li>
 <li><a href="https://www.youtube.com/watch?v=0QF04ivO_WE&amp;list=PL973D48F273EB0360&amp;index=3">User-Level CTF</a></li>
 <li><a href="https://www.youtube.com/watch?v=CqLcj0lVnp4&amp;index=4&amp;list=PL973D48F273EB0360">Dynamic Translators</a></li>
@@ -260,56 +234,56 @@
 <li><a href="https://www.youtube.com/watch?v=NElog3MvUC8&amp;list=PL973D48F273EB0360&amp;index=13">DTrace on Linux</a></li>
 <li><a href="https://www.youtube.com/watch?v=m_V7yrrn49Y&amp;index=14&amp;list=PL973D48F273EB0360">ZFS Provider</a></li>
 <li><a href="https://www.youtube.com/watch?v=s5PpSiPfSNI&amp;index=15&amp;list=PL973D48F273EB0360">DTrace on FreeBSD</a></li>
-<li><a href="https://www.youtube.com/watch?v=P95LHZ-WOWw&amp;index=16&amp;list=PL973D48F273EB0360">Barriers to DTrace Adoption </a></li>
-</ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=P95LHZ-WOWw&amp;index=16&amp;list=PL973D48F273EB0360">Barriers to DTrace Adoption</a></p>
 </li>
 <li>
 <p><a href="./TBA">dtrace.conf 2016</a></p>
 </li>
 </ul>
-<h1 id="software">Software</h1>
-<p><em>List of software with DTrace support.</em></p>
-<h2 id="programming-languages">Programming languages</h2>
-<h3 id="erlang">Erlang</h3>
+<h2 id="software">Software</h2>
+<p>List of software with DTrace support.</p>
+<h3 id="programming-languages">Programming languages</h3>
+<h4 id="erlang">Erlang</h4>
 <ul>
 <li><a href="http://erlang.org/doc/apps/runtime_tools/DTRACE.html">Erlang</a> - DTrace and Erlang/OTP.</li>
 </ul>
-<h3 id="lua">Lua</h3>
+<h4 id="lua">Lua</h4>
 <ul>
 <li><a href="https://github.com/chrisa/lua-usdt">lua-usdt</a> - libusdt bindings for Lua.</li>
 </ul>
-<h3 id="nodejs">node.js</h3>
+<h4 id="nodejs">node.js</h4>
 <ul>
 <li><a href="https://github.com/chrisa/node-dtrace-provider">node-dtrace-provider</a> - Native DTrace probes for node.js apps.</li>
 </ul>
-<h3 id="perl">Perl</h3>
+<h4 id="perl">Perl</h4>
 <ul>
 <li><a href="https://github.com/chrisa/perl-Devel-DTrace-Provider">perl-Devel-DTrace-Provider</a> - Perl wrapper for libusdt.</li>
 </ul>
-<h3 id="php">PHP</h3>
+<h4 id="php">PHP</h4>
 <ul>
 <li><a href="https://secure.php.net/manual/en/features.dtrace.dtrace.php">PHP</a> - Using PHP and DTrace.</li>
 </ul>
-<h3 id="python">Python</h3>
+<h4 id="python">Python</h4>
 <ul>
 <li><a href="https://www.jcea.es/artic/python_dtrace.htm">Python</a> - DTrace patch for Python 2.7.x and 3.x.</li>
 <li><a href="https://github.com/nshalman/python-usdt">python-usdt</a> - libusdt bindings for Python.</li>
 </ul>
-<h3 id="ruby">Ruby</h3>
+<h4 id="ruby">Ruby</h4>
 <ul>
 <li><a href="http://ruby-doc.org/core-2.3.1/doc/dtrace_probes_rdoc.html">Ruby</a> - Ruby DTrace probes.</li>
 <li><a href="https://github.com/kevinykchan/ruby-usdt">ruby-usdt</a> - Native DTrace probes for ruby apps.</li>
 </ul>
-<h2 id="databases">Databases</h2>
+<h3 id="databases">Databases</h3>
 <ul>
 <li><a href="https://dev.mysql.com/doc/refman/5.7/en/dba-dtrace-mysqld-ref.html">MySQL</a> - MySQL DTrace probes.</li>
 <li><a href="https://www.postgresql.org/docs/current/static/dynamic-trace.html">PostgreSQL</a> - PostgreSQL DTrace probes.</li>
 </ul>
-<h2 id="webservers">Webservers</h2>
+<h3 id="webservers">Webservers</h3>
 <ul>
 <li><a href="https://github.com/davepacheco/mod_usdt">mod_usdt</a> - "httpd" DTrace provider.</li>
 </ul>
-<h1 id="tools">Tools</h1>
+<h2 id="tools">Tools</h2>
 <ul>
 <li><a href="http://www.brendangregg.com/dtracetoolkit.html">DTraceToolkit</a> - a collection of useful documented DTrace scripts.</li>
 <li><a href="https://github.com/brendangregg/dtrace-cloud-tools">dtrace-cloud-tools</a> - DTrace tools written for the SmartOS/SmartDataCenter cloud (illumos-based).</li>
@@ -317,12 +291,12 @@
 <li><a href="https://github.com/davepacheco/portsnoop">portsnoop</a> - trace event port activity.</li>
 <li><a href="https://github.com/richardelling/tools">storage tools</a> - report NFS, CIFS and iSCSI stats.</li>
 </ul>
-<h1 id="community">Community</h1>
+<h2 id="community">Community</h2>
 <ul>
 <li><a href="http://dtrace.org">Community site</a> - DTrace community site.</li>
 <li><a href="http://dtrace.org/blogs/mailing-list/">Mailing list</a> - DTrace community mailing list.</li>
 </ul>
-<h1 id="contributing">Contributing</h1>
+<h2 id="contributing">Contributing</h2>
 <p>Contributions are more than welcome! Please see <a href="https://github.com/xen0l/awesome-dtrace/blob/master/CONTRIBUTING.md">contribution guidelines</a> first.</p></div>
         </div>
 
