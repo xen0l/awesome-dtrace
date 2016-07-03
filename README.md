@@ -13,6 +13,7 @@ Layout inspired by [awesome-python](https://github.com/vinta/awesome-python).
   - [Articles](#articles)
     - [PID Provider](#pid-provider)
     - [USDT Provider](#usdt-provider)
+    - [Sysevent Provider](#sysevent-provider)
   - [Videos](#videos)
     - [dtrace.conf](#dtraceconf)
   - [Software](#software)
@@ -68,6 +69,10 @@ Interesting articles about DTrace and real-world use cases.
 
 - [Understanding DTrace ustack helpers](http://dtrace.org/blogs/dap/2013/11/20/understanding-dtrace-ustack-helpers/) - DTrace ustack helpers.
 - [USDT Providers Redux](http://dtrace.org/blogs/dap/2011/12/13/usdt-providers-redux/) - reference for building USDT providers in custom applications.
+
+### Sysevent provider
+
+- [DTrace sysevent provider](https://blogs.oracle.com/eschrock/entry/dtrace_sysevent_provider) - Solaris/illumos sysevent provider for DTrace.
 
 ## Videos
 
