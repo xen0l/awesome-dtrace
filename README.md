@@ -40,6 +40,7 @@ Recommended reading for learning DTrace.
 
 - [Dynamic Tracing Guide](http://dtrace.org/guide/preface.html) - illumos.org DTrace guide.
 - [DTrace: Dynamic Tracing in Oracle Solaris, Mac OS X, and FreeBSD](http://www.dtracebook.com/index.php/Main_Page) - official DTrace book.
+- [Dynamic Tracing with DTrace & SystemTap](http://myaut.github.io/dtrace-stap-book/) - a book introduces both DTrace and SystemTap.
 
 ### Other
 
