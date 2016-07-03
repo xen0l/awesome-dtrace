@@ -8,4 +8,4 @@ before_script:
 
 script:
   - awesome_bot README.md --allow-dupe --allow-redirect
-  - mdl -r '~MD013' README.md
+  - mdl -r '~MD007,~MD013' README.md
