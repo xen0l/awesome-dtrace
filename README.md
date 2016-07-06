@@ -173,6 +173,7 @@ List of software with DTrace support.
 
 - [Community site](http://dtrace.org) - DTrace community site.
 - [Mailing list](http://dtrace.org/blogs/mailing-list/) - DTrace community mailing list.
+- [China DTrace](http://chinadtrace.org/) - A Chinese DTrace site.
 
 ## Contributing
 
