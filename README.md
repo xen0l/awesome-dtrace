@@ -114,7 +114,24 @@ Interesting videos about DTrace.
     - [DTrace on FreeBSD](https://www.youtube.com/watch?v=s5PpSiPfSNI&index=15&list=PL973D48F273EB0360)
     - [Barriers to DTrace Adoption](https://www.youtube.com/watch?v=P95LHZ-WOWw&index=16&list=PL973D48F273EB0360)
 
-- [dtrace.conf 2016](TBA)
+- [dtrace.conf 2016](https://www.joyent.com/about/events/2016/dtrace-conf)
+    - [Introduction](https://player.vimeo.com/video/173346406)
+    - [(Useful!) DTrace intro](https://player.vimeo.com/video/173346405)
+    - [CTF Everywhere!](https://player.vimeo.com/video/173346404)
+    - [Distributed DTrace](https://player.vimeo.com/video/173346403)
+    - [DTracign Apps](https://player.vimeo.com/video/173346402)
+    - [DTrace and JSON: Together at last!](https://player.vimeo.com/video/173346401)
+    - [ASSERT() as a DTrace probe (and why I need some help)](https://player.vimeo.com/video/173346400)
+    - [Implementing (or not) fds[] in FreeBSD](https://player.vimeo.com/video/173346399)
+    - [OpenDTrace](https://player.vimeo.com/video/173346398)
+    - [DTrace Performance Improvements with Always-on Instrumentation](https://player.vimeo.com/video/173300658)
+    - [D language improvements](https://player.vimeo.com/video/173300657)
+    - [D Syntactic Sugar](https://player.vimeo.com/video/173300656)
+    - [DTrace and Go](https://player.vimeo.com/video/173300655)
+    - [DTrace and Postgres](https://player.vimeo.com/video/173300654)
+    - [DTrace in the Zone](https://player.vimeo.com/video/173300653)
+    - [DTrace ustack() performance improvements](https://player.vimeo.com/video/173300651)
+    - [DTrace Exploitation](https://player.vimeo.com/video/173300650)
 
 ## Software
 
