@@ -114,7 +114,7 @@ Interesting videos about DTrace.
     - [DTrace on FreeBSD](https://www.youtube.com/watch?v=s5PpSiPfSNI&index=15&list=PL973D48F273EB0360)
     - [Barriers to DTrace Adoption](https://www.youtube.com/watch?v=P95LHZ-WOWw&index=16&list=PL973D48F273EB0360)
 
-- [dtrace.conf 2016](TBA)
+- [dtrace.conf 2016](https://www.joyent.com/about/events/2016/dtrace-conf)
 
 ## Software
 
