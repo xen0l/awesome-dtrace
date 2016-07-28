@@ -2,46 +2,27 @@
 
 A curated list of awesome DTrace books, articles, videos, tools and resources.
 
-![Pony](http://dtrace.org/blogs/wp-content/uploads/2011/11/dtracepony-120.png)
+## Contents
 
-Layout inspired by [awesome-python](https://github.com/vinta/awesome-python).
-
-- [Awesome DTrace](#awesome-dtrace)
-    - [Learn DTrace](#learn-dtrace)
-        - [Books](#books)
-        - [Other](#other)
-    - [Articles](#articles)
-        - [PID Provider](#pid-provider)
-        - [USDT Provider](#usdt-provider)
-        - [Sysevent Provider](#sysevent-provider)
-    - [Videos](#videos)
-        - [dtrace.conf](#dtraceconf)
-    - [Software](#software)
-        - [Programming languages](#programming-languages)
-            - [Erlang](#erlang)
-            - [Lua](#lua)
-            - [node.js](#nodejs)
-            - [Perl](#perl)
-            - [PHP](#php)
-            - [Python](#python)
-            - [Ruby](#ruby)
-        - [Databases](#databases)
-        - [Webservers](#webservers)
-    - [Tools](#tools)
-    - [Community](#community)
-    - [Contributing](#contributing)
+- [Learn](#learn)
+- [Articles](#articles)
+- [Videos](#videos)
+- [Software](#software)
+- [Tools](#tools)
+- [Community](#community)
+- [Contributing](#contributing)
 
 - - -
 
-## Learn DTrace
+## Learn
 
 Recommended reading for learning DTrace.
 
 ### Books
 
-- [Dynamic Tracing Guide](http://dtrace.org/guide/preface.html) - illumos.org DTrace guide.
-- [DTrace: Dynamic Tracing in Oracle Solaris, Mac OS X, and FreeBSD](http://www.dtracebook.com/index.php/Main_Page) - official DTrace book.
-- [Dynamic Tracing with DTrace & SystemTap](http://myaut.github.io/dtrace-stap-book/) - a book introduces both DTrace and SystemTap.
+- [Dynamic Tracing Guide](http://dtrace.org/guide/preface.html) - Illumos.org DTrace guide.
+- [DTrace: Dynamic Tracing in Oracle Solaris, Mac OS X, and FreeBSD](http://www.dtracebook.com/index.php/Main_Page) - Official DTrace book.
+- [Dynamic Tracing with DTrace & SystemTap](http://myaut.github.io/dtrace-stap-book/) - A book introduces both DTrace and SystemTap.
 
 ### Other
 
@@ -58,18 +39,18 @@ Interesting articles about DTrace and real-world use cases.
 
 ### PID Provider
 
-- [pid provider: entry probe](http://dtrace.org/blogs/brendan/2011/02/09/dtrace-pid-provider/) - DTrace pid Provider.
-- [pid provider: entry arguments](http://dtrace.org/blogs/brendan/2011/02/11/dtrace-pid-provider-arguments/) - DTrace pid Provider Arguments.
-- [pid provider: return](http://dtrace.org/blogs/brendan/2011/02/14/dtrace-pid-provider-return/) - DTrace pid Provider return.
-- [pid provider: instructions](http://dtrace.org/blogs/brendan/2011/02/16/dtrace-pid-provider-instructions/) - DTrace pid Provider Instructions.
-- [pid provider: overhead](http://dtrace.org/blogs/brendan/2011/02/18/dtrace-pid-provider-overhead/) - DTrace pid Provider Overhead.
-- [pid provider exposed](http://dtrace.org/blogs/ahl/2005/03/01/pid-provider-exposed/) - pid providers internals by Adam Leventhal.
-- [When magic collides](http://dtrace.org/blogs/bmc/2011/03/09/when-magic-collides/) - pid provider bug deep dive by Bryan Cantrill.
+- [pid provider: entry probe](http://dtrace.org/blogs/brendan/2011/02/09/dtrace-pid-provider/) - DTrace PID Provider.
+- [pid provider: entry arguments](http://dtrace.org/blogs/brendan/2011/02/11/dtrace-pid-provider-arguments/) - DTrace PID Provider Arguments.
+- [pid provider: return](http://dtrace.org/blogs/brendan/2011/02/14/dtrace-pid-provider-return/) - DTrace PID Provider return.
+- [pid provider: instructions](http://dtrace.org/blogs/brendan/2011/02/16/dtrace-pid-provider-instructions/) - DTrace PID Provider Instructions.
+- [pid provider: overhead](http://dtrace.org/blogs/brendan/2011/02/18/dtrace-pid-provider-overhead/) - DTrace PID Provider Overhead.
+- [pid provider exposed](http://dtrace.org/blogs/ahl/2005/03/01/pid-provider-exposed/) - PID providers internals by Adam Leventhal.
+- [When magic collides](http://dtrace.org/blogs/bmc/2011/03/09/when-magic-collides/) - PID provider bug deep dive by Bryan Cantrill.
 
 ### USDT provider
 
 - [Understanding DTrace ustack helpers](http://dtrace.org/blogs/dap/2013/11/20/understanding-dtrace-ustack-helpers/) - DTrace ustack helpers.
-- [USDT Providers Redux](http://dtrace.org/blogs/dap/2011/12/13/usdt-providers-redux/) - reference for building USDT providers in custom applications.
+- [USDT Providers Redux](http://dtrace.org/blogs/dap/2011/12/13/usdt-providers-redux/) - Reference for building USDT providers in custom applications.
 
 ### Sysevent provider
 
@@ -145,9 +126,9 @@ List of software with DTrace support.
 
 #### Lua
 
-- [lua-usdt](https://github.com/chrisa/lua-usdt) - libusdt bindings for Lua.
+- [lua-usdt](https://github.com/chrisa/lua-usdt) - Libusdt bindings for Lua.
 
-#### node.js
+#### Node.js
 
 - [node-dtrace-provider](https://github.com/chrisa/node-dtrace-provider) - Native DTrace probes for node.js apps.
 
@@ -162,7 +143,7 @@ List of software with DTrace support.
 #### Python
 
 - [Python](https://www.jcea.es/artic/python_dtrace.htm) - DTrace patch for Python 2.7.x and 3.x.
-- [python-usdt](https://github.com/nshalman/python-usdt) - libusdt bindings for Python.
+- [python-usdt](https://github.com/nshalman/python-usdt) - Libusdt bindings for Python.
 
 #### Ruby
 
@@ -180,11 +161,11 @@ List of software with DTrace support.
 
 ## Tools
 
-- [DTraceToolkit](http://www.brendangregg.com/dtracetoolkit.html) - a collection of useful documented DTrace scripts.
+- [DTraceToolkit](http://www.brendangregg.com/dtracetoolkit.html) - A collection of useful documented DTrace scripts.
 - [dtrace-cloud-tools](https://github.com/brendangregg/dtrace-cloud-tools) - DTrace tools written for the SmartOS/SmartDataCenter cloud (illumos-based).
-- [pgsql tools](https://github.com/joyent/pgsqlstat) - report top-level PostgreSQL stats.
-- [portsnoop](https://github.com/davepacheco/portsnoop) - trace event port activity.
-- [storage tools](https://github.com/richardelling/tools) - report NFS, CIFS and iSCSI stats.
+- [pgsql tools](https://github.com/joyent/pgsqlstat) - Report top-level PostgreSQL stats.
+- [portsnoop](https://github.com/davepacheco/portsnoop) - Trace event port activity.
+- [storage tools](https://github.com/richardelling/tools) - Report NFS, CIFS and iSCSI stats.
 
 ## Community
 
