@@ -9,7 +9,7 @@ Your contributions are always welcome!
     * Keep descriptions concise.
 * Add a section if needed.
     * Add the section description.
-    * Add the section title to Table of Contents.
+    * Add the section title to Contents.
 * Search previous suggestions before making a new one, as yours may be a duplicate.
 * Check your spelling and grammar.
 * Remove any trailing whitespace.
