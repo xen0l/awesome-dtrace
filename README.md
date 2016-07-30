@@ -88,7 +88,7 @@ Interesting videos about DTrace.
     - [Visualizations](https://www.youtube.com/watch?v=XD5hdaWnQM4&index=8&list=PL973D48F273EB0360)
     - [Visualizations, Enabling Toolchain for Seamless USDT](https://www.youtube.com/watch?v=3Sqa8mmtnMM&index=9&list=PL973D48F273EB0360)
     - [More Visualizations](https://www.youtube.com/watch?v=-B6u6wY3Iro&index=10&list=PL973D48F273EB0360)
-    - [DTrace in node.js](https://www.youtube.com/watch?v=0ZMvSh7lUdM&list=PL973D48F273EB0360&index=11)
+    - [DTrace in Node.js](https://www.youtube.com/watch?v=0ZMvSh7lUdM&list=PL973D48F273EB0360&index=11)
     - [DTrace and Erlang](https://www.youtube.com/watch?v=4Si-7nAic2c&list=PL973D48F273EB0360&index=12)
     - [DTrace on Linux](https://www.youtube.com/watch?v=NElog3MvUC8&list=PL973D48F273EB0360&index=13)
     - [ZFS Provider](https://www.youtube.com/watch?v=m_V7yrrn49Y&index=14&list=PL973D48F273EB0360)
@@ -130,7 +130,7 @@ List of software with DTrace support.
 
 #### Node.js
 
-- [node-dtrace-provider](https://github.com/chrisa/node-dtrace-provider) - Native DTrace probes for node.js apps.
+- [node-dtrace-provider](https://github.com/chrisa/node-dtrace-provider) - Native DTrace probes for Node.js apps.
 
 #### Perl
 
