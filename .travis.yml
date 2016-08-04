@@ -4,8 +4,11 @@ rvm:
   - 2.2
 
 before_script:
+  - nvm install 6
   - gem install awesome_bot mdl
+  - npm install --global awesome-lint
 
 script:
   - awesome_bot README.md --allow-dupe --allow-redirect
   - mdl -r '~MD007,~MD013' README.md
+  - awesome-lint README.md
