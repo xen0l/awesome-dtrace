@@ -56,6 +56,11 @@ Interesting articles about DTrace and real-world use cases.
 
 - [DTrace sysevent provider](https://blogs.oracle.com/eschrock/entry/dtrace_sysevent_provider) - Solaris/illumos sysevent provider for DTrace.
 
+### Visualization methods
+
+- [Flamegraphs](http://www.brendangregg.com/flamegraphs.html) - A visualization of profiled software, allowing the most frequent code-paths to be identified quickly and accurately.
+- [Heat Maps](http://brendangregg.com/heatmaps.html) - Heat maps allow three dimensions of data to be visualized, similar to weather radar maps where color is used as a dimension.
+
 ## Videos
 
 Interesting videos about DTrace.
@@ -158,6 +163,11 @@ List of software with DTrace support.
 ### Webservers
 
 - [mod_usdt](https://github.com/davepacheco/mod_usdt) - "httpd" DTrace provider.
+
+### Visualization
+
+- [FlameGraph](https://github.com/brendangregg/FlameGraph) - Stack trace visualizer.
+- [node-stackvis](https://github.com/joyent/node-stackvis) - Stack trace visualizer.
 
 ## Tools
 
