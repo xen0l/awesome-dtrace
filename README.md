@@ -32,6 +32,7 @@ Recommended reading for learning DTrace.
 - [DTrace one-liners (FreeBSD)](https://wiki.freebsd.org/DTrace/One-Liners) - DTrace one liners from FreeBSD.
 - [DTrace QuickStart](http://www.tablespace.net/quicksheet/dtrace-quickstart.html) - DTrace quick starting guide.
 - [Using DTrace stories](https://github.com/NanXiao/using-dtrace-stories) - A collection of using DTrace to debug system stories.
+- [Advanced DTrace Tips, Tricks and Gotchas](http://dtrace.org/resources/bmc/dtrace_tips.pdf) - A collection of advanced tips for using DTrace.
 
 ## Articles
 
