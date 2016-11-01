@@ -57,6 +57,10 @@ Interesting articles about DTrace and real-world use cases.
 
 - [DTrace sysevent provider](https://blogs.oracle.com/eschrock/entry/dtrace_sysevent_provider) - Solaris/illumos sysevent provider for DTrace.
 
+### Ruby and DTrace
+
+- [Using DTrace to measure mutex contention in Ruby](https://vaneyckt.io/posts/using_dtrace_to_measure_mutex_contention_in_ruby/) - Mutex contention measuring in Ruby.
+
 ### Visualization methods
 
 - [Flamegraphs](http://www.brendangregg.com/flamegraphs.html) - A visualization of profiled software, allowing the most frequent code-paths to be identified quickly and accurately.
